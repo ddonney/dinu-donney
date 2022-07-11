@@ -16,11 +16,11 @@ _Note:_ RestAssured, the widely used testing library for API automation is a wra
 2. Use of Lombok annotations helps simplify the creation of classes as only the fields need to be declared
 3. _Request:_ To create request JSON, it is sufficient to create object(s) for the corresponding request model classes and set values according to the tests. Then Object Mapper (Jackson - databind) can be used to serialize the object(s) to json before submitting API calls
 4. _Response:_ To enable ease of access and parsing response JSON, object mapper can parse the response JSON string as object(s) of response model classes
-2. POJO classes can be found at _src/test/java/com/automation/api/dto/requests package
+2. POJO classes can be found at _src/test/java/com/automation/api/dto/requests_ package
 
 ### Acceptance Tests:
 1. Acceptance Tests written as Cucumber feature file can be found at _src/test/resources/features/ReqResApiTests.feature_
-2. The tests perform a API calls to APIs hosted at https://localhost/8080
+2. The tests perform a API calls to APIs hosted at https://petstore3.swagger.io/
 
 ### Assertions:
 1. JUnit assertion methods are used to verify response JSON data
