@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.automation.demo.testutil.listeners.TestListener"/>
+        <listener class-name="com.automation.demo.testutil.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="TransactionTests">
+        <classes>
+            <class name="com.automation.demo.tests.TestTransaction" />
+        </classes>
+    </test>
+</suite>
