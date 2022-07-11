@@ -2,7 +2,7 @@
 REST API automation framework using Cucumber, Apache HTTP Client
 
 ## Project Description
-This project is to implement a framework for REST API automation tests with Cucumber and Apache Http Client for sample ReqRes APIs. Project was developed using:
+This project is to implement a framework for REST API automation tests with Cucumber and Apache Http Client. Project was developed using:
 1. Cucumber - 7.3.3 - latest version
 2. Apache Http Components - Http Client - 4.5.13 - latest version
 3. Lombok - annotations and clean code
